@@ -107,23 +107,36 @@ if st.session_state.answers_correct:
             st.session_state.show_secret = True
 
     if st.session_state.show_secret:
-            st.success("💌 Querida Isabellita...")
+            st.success("💌 Mi amor...")
             st.markdown("""
-            Desde que llegaste a mi vida, todo tiene más sentido.  
-            Cada momento contigo es un regalo, y cada día a tu lado lo celebro como el más hermoso.  
+            Desde que llegaste a mi vida, todo se volvó aún más lindo.  
+            Cada momento contigo es un regalo, y cada día a tu lado lo atesoro como el más hermoso.  
             Esta carta es solo un reflejo de cuánto te amo y cuánto significas para mí.  
-            Gracias por ser tú. Gracias por elegirme.  
-            Siempre tuyo. 💘  
+            Gracias por ser tú. 💘  
             """)
 
         # ----------- DESCARGA DE CARTA -----------
     carta = f"""
-        Querida Isabellita,
+        Pochita hermosa,
 
         Hoy celebramos tus 22 años, y me siento afortunado de acompañarte en esta historia hermosa.
         Esta línea del tiempo es solo una forma de recordarte todo lo que has vivido y lo increíble que eres.
-        Te amo con el alma.
+        Gracias mi amor, por cada risa, cada abrazo y cada momento compartido.
 
+        Gracias por ser tan amorosa en los consentimientos que me dashh, tan especial en momentos díficiles y en todos los detalles que me haces,
+        tan comprensiva y paciente en mis momentos de estrés, tan divertida en nuestras locuras, tan apasionada en tus sueños y metas, y tan única en todo lo que haces. 
+        
+        Gracias también por elegirme como tu compañero de vida, una vida que en la que hemos vivido momentos espectaculares juntos, y que estoy seguro que aún nos quedan muchos más por vivir.
+        Todos esos momentos, que nos han hecho crecer juntos, son los que hacen que cada día a tu lado sea un regalo. Tus cualidades son infinitas, y cada una de ellas son las que me enamoran 
+        de ti una y otra vez. Son esas cualidades las cuales has sabido implementar en nuestra relación, y que hacen que sea más fuerte cómo tu resiliencia, tu empatía, tu amor por la vida y tu capacidad de hacerme sonreír incluso en los días más difíciles.
+
+        Gracias por ser ese motorcito que me impulsa a ser mejor cada día, por pensar un futuro a tu lado, y estar seguro que todo el esfuerzo y trabajo valdrá la pena aún más si estás a mi lado.
+
+        Mi amorcito, espero que este nuevo año de vida esté lleno de aventuras, risas y mucho amor, como siempre...
+        Que éste nuevo año sea otro capítulo lleno de momentos inolvidables, y que sigamos escribiendo juntos nuestra historia.
+        Te amo con todo mi corazón, y estoy emocionado por todo lo que nos espera.
+
+        Espero que esta carta te haga sonreír y te recuerde lo especial que eres para mí.
         Con amor,
         Tu persona 💖
         """
