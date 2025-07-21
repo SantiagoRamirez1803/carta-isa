@@ -109,7 +109,7 @@ if st.session_state.answers_correct:
     if st.session_state.show_secret:
             st.success("💌 Mi amor...")
             st.markdown("""
-            Desde que llegaste a mi vida, todo se volvó aún más lindo.  
+            Desde que llegaste a mi vida, todo se volvió aún más lindo.  
             Cada momento contigo es un regalo, y cada día a tu lado lo atesoro como el más hermoso.  
             Esta carta es solo un reflejo de cuánto te amo y cuánto significas para mí.  
             Gracias por ser tú. 💘  
@@ -126,18 +126,29 @@ if st.session_state.answers_correct:
         Gracias por ser tan amorosa en los consentimientos que me dashh, tan especial en momentos díficiles y en todos los detalles que me haces,
         tan comprensiva y paciente en mis momentos de estrés, tan divertida en nuestras locuras, tan apasionada en tus sueños y metas, y tan única en todo lo que haces. 
         
-        Gracias también por elegirme como tu compañero de vida, una vida que en la que hemos vivido momentos espectaculares juntos, y que estoy seguro que aún nos quedan muchos más por vivir.
-        Todos esos momentos, que nos han hecho crecer juntos, son los que hacen que cada día a tu lado sea un regalo. Tus cualidades son infinitas, y cada una de ellas son las que me enamoran 
-        de ti una y otra vez. Son esas cualidades las cuales has sabido implementar en nuestra relación, y que hacen que sea más fuerte cómo tu resiliencia, tu empatía, tu amor por la vida y tu capacidad de hacerme sonreír incluso en los días más difíciles.
+        Gracias también por elegirme como tu compañero de vida, una vida que en la que hemos vivido momentos espectaculares juntos, y que 
+        estoy seguro que aún nos quedan muchos más por vivir.
 
-        Gracias por ser ese motorcito que me impulsa a ser mejor cada día, por pensar un futuro a tu lado, y estar seguro que todo el esfuerzo y trabajo valdrá la pena aún más si estás a mi lado.
+        Todos esos momentos, que nos han hecho crecer juntos, son los que hacen que cada día a tu lado sea un regalo. Tus cualidades son infinitas,
+        y cada una de ellas son las que me enamoran de ti una y otra vez. Son esas cualidades las cuales has sabido implementar 
+        en nuestra relación, y que hacen que sea más fuerte cómo tu resiliencia, tu empatía, tu amor por la vida y tu capacidad de hacerme sonreír incluso en los días más difíciles.
+
+        Gracias por ser ese motorcito que me impulsa a ser mejor cada día, por pensar un futuro a tu lado, y estar seguro que todo el esfuerzo y 
+        trabajo valdrá la pena aún más si estás a mi lado.
 
         Mi amorcito, espero que este nuevo año de vida esté lleno de aventuras, risas y mucho amor, como siempre...
         Que éste nuevo año sea otro capítulo lleno de momentos inolvidables, y que sigamos escribiendo juntos nuestra historia.
         Te amo con todo mi corazón, y estoy emocionado por todo lo que nos espera.
 
-        Espero que esta carta te haga sonreír y te recuerde lo especial que eres para mí.
+        Nunca me alcanzarán las palabras para expresar lo agradecido que estoy por tenerte en mi vida pochita de mi alma, eres el amor
+        de mi vida y eso no cambiará jamás. Sigamos consintiendo a nuestro bebé Zeus, sigamos viajando por el mundo, dejémonos sorprender por la vida juntos,
+        y sigamos dejando huella en cada cosa que hacemos. Me siento muy orgulloso de todo lo que haces, de como no te rindes en cada una de tus experiencias.
+        Eres una mujer increíble, valiente, inteligente y miles de cosas más que me hacen aprender de ti en cada momento.
+
+
+        Espero que esta carta te haga sonreír y te recuerde lo especial que eres para mí polluelitaaa.
+
         Con amor,
-        Tu persona 💖
+        Santy 💖
         """
     st.download_button("📄 Descargar esta carta", carta, file_name="carta_para_isabellita.txt")
